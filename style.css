@@ -2,21 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 body {
-  display: flex;
   text-align: center;
-  background-color: #fff;
-  color: #333;
+  background-color: #fbfbfb;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: normal;
-}
-
-.container {
-  width: 100%;
-  margin: auto;
 }
 
 a {
@@ -30,122 +21,79 @@ a:hover {
 
 nav {
   display: flex;
-  font-weight: 300;
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  /* font-weight: 300; */
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  text-align: left;
-  padding-left: 4rem;
-  font-weight: bold;
-  margin-top: 5rem;
-  font-size: 5rem;
-}
-
-.logo a {
-  font-size: 4rem;
   color: #333;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.menu {
-  margin: 1rem;
-  padding-top: 3rem;
-  padding-right: 2rem;
-  width: 12rem;
+.menu img {
+  width: 2rem;
+  /* height: 8rem; */
 }
 
-.middle {
-  background-image: url(imege/background.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: 100% 100%;
-}
-
-#title {
+.title {
   display: flex;
   flex-direction: column;
+  background-image: url(imege/background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  padding: 12%;
+  padding-top: 20%;
   justify-content: center;
-  height: 32vh;
-  padding-top: 20vh;
-  padding-bottom: 3vh;
 }
 
 #title h1 {
-  font-size: 7rem;
-  margin: 1rem;
-  font-weight: bold;
+  margin: 200rem;
+  /* font-weight: 600; */
   letter-spacing: 0.3rem;
+}
+
+span {
+  color: #36b37e;
 }
 
 #head-1 {
   color: #172b4d;
+  width: 95%;
+  font-size: 2.3rem;
 }
 
-#head-2 {
-  color: #36b37e;
+.title p {
+  width: 75%;
+  margin: auto;
+  font-size: 1.3rem;
+  padding-top: 5%;
+  padding-bottom: 0%;
+  letter-spacing: 2.3px;
 }
 
-.info {
-  font-size: 5rem;
-  font-weight: 600;
-  letter-spacing: 0.3rem;
-  padding: 10rem 8rem;
-  line-height: 1.7;
-  padding-bottom: 3rem;
-}
-
-.info h4 {
-  width: 70%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-footer {
+.icon {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 
-footer ul {
+.icon ul {
   display: flex;
+  padding: 2rem;
 }
 
-footer ul li {
+.icon ul li {
   display: block;
-  padding: 4rem;
+  margin: 1rem;
 }
 
-footer img {
-  width: 3rem;
-  height: 3rem;
-}
-
-.botton {
-  margin-top: 130px;
-  width: 100%;
-  background: transparent;
-  border: #fff;
-}
-
-.botton:hover {
-  background: #36b37e;
-}
-
-@media screen and (max-width: 481px) {
-  nav {
-    padding: 1rem 3rem;
-  }
-
-  nav .logo {
-    font-size: 4rem;
-    padding-bottom: 1rem;
-  }
-
-  .title h1 {
-    font-size: 1.6rem;
-  }
-
-  p {
-    text-align: center;
-  }
+.icon img {
+  width: 1.2rem;
 }

@@ -8,7 +8,7 @@
 body {
   display: flex;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #333;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
@@ -33,7 +33,6 @@ nav {
   font-weight: 300;
   width: 100%;
   justify-content: space-between;
-  padding: 10 10rem;
 }
 
 .logo {
@@ -125,7 +124,7 @@ footer img {
   margin-top: 130px;
   width: 100%;
   background: transparent;
-  border: #ffffff;
+  border: #fff;
 }
 
 .botton:hover {

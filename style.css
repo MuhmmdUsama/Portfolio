@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  background-color: #ffffff;
+  color: #333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(224, 224, 224);
+  color: #333;
+}
+
+nav {
+  display: flex;
+  font-weight: 300;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10 10rem;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 4rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  font-size: 5rem;
+}
+
+.logo a {
+  font-size: 4rem;
+  color: #333;
+}
+
+.menu {
+  margin: 1rem;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  width: 12rem;
+}
+
+.middle {
+  background-image: url(imege/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 32vh;
+  padding-top: 20vh;
+  padding-bottom: 3vh;
+}
+
+#title h1 {
+  font-size: 7rem;
+  margin: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+#head-1 {
+  color: #172b4d;
+}
+
+#head-2 {
+  color: #36b37e;
+}
+
+.info {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  padding: 10rem 8rem;
+  line-height: 1.7;
+  padding-bottom: 3rem;
+}
+
+.info p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  display: block;
+  padding: 4rem;
+}
+
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.botton {
+  margin-top: 130px;
+  width: 100%;
+  background: transparent;
+  border: #ffffff;
+}
+
+.botton:hover {
+  background: #36b37e;
+}
+
+@media screen and (max-width: 481px) {
+  nav {
+    padding: 1rem 3rem;
+  }
+
+  nav .logo {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .title h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    text-align: center;
+  }
+}

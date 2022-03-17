@@ -79,18 +79,11 @@ span {
   display: flex;
   justify-content: center;
   list-style: none;
-}
-
-.icon ul {
-  display: flex;
-  padding: 2rem;
-}
-
-.icon ul li {
-  display: block;
-  margin: 1rem;
+  padding-top: 15%;
+  padding-bottom: 20%;
 }
 
 .icon img {
-  width: 1.2rem;
+  width: 1.7rem;
+  margin: 1.5rem;
 }

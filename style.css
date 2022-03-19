@@ -12,7 +12,7 @@ html {
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: "Inter var", sans-serif;
+    font-family: "Inter", sans-serif;
   }
 }
 
@@ -129,7 +129,8 @@ nav {
   flex-direction: column;
   background-color: #ebf0ee;
   border: 2px solid #ebf0ee;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin: 2rem;
 }
 
 .proj-card img {
@@ -225,8 +226,9 @@ nav {
   margin-top: 2rem;
 }
 
-.skills-card {
-  width: 43vh;
+.skills {
+  /* width: 43vh; */
+  margin: 0.5rem;
 }
 
 .skills-content {
@@ -242,4 +244,10 @@ nav {
 .skills-content ul li {
   background-color: #fff;
   margin-bottom: 2rem;
+}
+
+button:hover {
+  background: #1e488f;
+  box-shadow: 0px 8px 16px rgba(30, 72, 143, 0.24);
+  border-radius: 4px;
 }

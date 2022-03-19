@@ -107,7 +107,6 @@ nav {
   justify-items: center;
   height: 4px;
   margin-top: 24px;
-  /* padding-top: 2px; */
 }
 
 /* -----------Portfolio section--------------- */
@@ -168,7 +167,7 @@ nav {
   right: 19.34%;
   position: static;
   align-items: center;
-  margin: 0px 8px;
+  margin: 1px 8px;
   padding: 8px 12px;
   border-radius: 3px;
   background-color: #ebf0ee;

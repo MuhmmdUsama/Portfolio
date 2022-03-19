@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 body {
   text-align: center;
   background-color: #fbfbfb;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 a {
@@ -25,9 +34,10 @@ p {
 }
 
 body p {
-  width: 75%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   margin: auto;
-  font-size: 1.3rem;
   padding-top: 5%;
   padding-bottom: 0%;
   letter-spacing: 2.3px;
@@ -55,7 +65,7 @@ nav {
   width: 2rem;
 }
 
-.title {
+.first-page {
   display: flex;
   flex-direction: column;
   background-image: url(imege/background.svg);
@@ -67,19 +77,18 @@ nav {
   justify-content: center;
 }
 
-#title h1 {
-  margin: 200rem;
-  letter-spacing: 0.3rem;
+.title h2 {
+  padding-top: 3rem;
 }
 
-span {
+.title span {
   color: #36b37e;
 }
 
 #head-1 {
-  color: #172b4d;
-  width: 95%;
-  font-size: 2.3rem;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .icon {
@@ -87,12 +96,19 @@ span {
   justify-content: center;
   list-style: none;
   padding-top: 10%;
-  padding-bottom: 20%;
+  padding-bottom: 40%;
 }
 
 .icon img {
   width: 1.7rem;
   margin: 1.5rem;
+}
+
+#indicator {
+  justify-items: center;
+  height: 4px;
+  margin-top: 24px;
+  /* padding-top: 2px; */
 }
 
 /* -----------Portfolio section--------------- */
@@ -104,17 +120,17 @@ span {
 }
 
 .Proj-container h2 {
-  font-size: 2.5rem;
-  color: #172b4d;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
   letter-spacing: 0.1rem;
-  line-height: 2.8rem;
 }
 
 .proj-card {
   display: flex;
   flex-direction: column;
-  background-color: rgb(207, 207, 207);
-  border: 2px solid rgb(202, 202, 202);
+  background-color: #ebf0ee;
+  border: 2px solid #ebf0ee;
   border-radius: 10px;
 }
 
@@ -145,42 +161,86 @@ span {
 }
 
 .tools li {
-  margin-right: 0.7rem;
-  margin-left: 0.7rem;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  left: 53.77%;
+  right: 19.34%;
+  position: static;
+  align-items: center;
+  margin: 0px 8px;
+  padding: 8px 12px;
   border-radius: 3px;
   background-color: #ebf0ee;
-  padding: 0.2rem 0.3rem;
-  color: rgb(51, 51, 51);
 }
 
 .proj-card button {
-  font-size: 1rem;
-  padding: 0.2rem 1.6rem;
-  background-color: #fff;
+  width: 122px;
+  height: 48px;
+  left: 551px;
+  top: calc(50% - 48px / 2 - 76.5px);
   border-radius: 4px;
-  border: 0.2px solid #172b4d;
+  border: 0.2px solid;
   margin: 1.5rem;
+  background-color: #36b37f;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 /* -----------About Section----------------- */
 
 .about {
   margin-top: 5rem;
-  background-color: #fff;
-  border-radius: 12px;
+  background-image: url(imege/backgraound-02.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about p {
+  padding: 3rem;
 }
 
 .about button {
-  font-size: 1rem;
-  padding: 1.2rem 1.6rem;
-  background-color: #fff;
+  width: 159px;
+  height: 48px;
+  left: 96px;
+  top: 285px;
   border-radius: 4px;
-  border: 0.2px solid #172b4d;
-  margin-top: 2.5rem;
-}
-
-body button:hover {
+  border: 0.2px solid;
+  margin: 1.5rem;
   background-color: #36b37f;
   color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/* -----------skills Section----------------- */
+
+.skills-card img {
+  border-radius: 10px;
+  height: 8rem;
+  object-fit: none;
+  margin-top: 2rem;
+}
+
+.skills-card {
+  width: 43vh;
+}
+
+.skills-content {
+  color: #36b37e;
+  background-color: #ebf0ee;
+  border-radius: 8px;
+}
+
+.skills-content ul {
+  flex-wrap: wrap;
+}
+
+.skills-content ul li {
+  background-color: #fff;
+  margin-bottom: 2rem;
 }

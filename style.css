@@ -227,7 +227,6 @@ nav {
 }
 
 .skills {
-  /* width: 43vh; */
   margin: 0.5rem;
 }
 
@@ -248,6 +247,6 @@ nav {
 
 button:hover {
   background: #1e488f;
-  box-shadow: 0px 8px 16px rgba(30, 72, 143, 0.24);
+  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
   border-radius: 4px;
 }

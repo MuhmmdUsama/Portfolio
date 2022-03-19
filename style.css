@@ -5,9 +5,11 @@
 }
 
 @import url("https://rsms.me/inter/inter.css");
+
 html {
   font-family: "Inter", sans-serif;
 }
+
 @supports (font-variation-settings: normal) {
   html {
     font-family: "Inter var", sans-serif;
@@ -21,10 +23,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.first-page {
-  padding-bottom: 10%;
 }
 
 h1,
@@ -74,6 +72,7 @@ nav {
   background-size: 100%;
   padding: 12%;
   padding-top: 20%;
+  padding-bottom: 10%;
   justify-content: center;
 }
 
@@ -164,6 +163,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-grow: 0;
+  font-weight: 500;
   left: 53.77%;
   right: 19.34%;
   position: static;

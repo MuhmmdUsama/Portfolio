@@ -17,9 +17,9 @@ a {
   text-decoration: none;
 }
 
-.first-page {
+/* .first-page {
   padding-bottom: 10%;
-}
+} */
 
 h1,
 h2,
@@ -50,10 +50,23 @@ button {
   line-height: 24px;
 }
 
-body button:hover {
-  background: #1e488f;
-  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
-  border-radius: 4px;
+footer h2 {
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 60px;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form ul li {
+  margin-top: 20px;
 }
 
 /* --------- First Welcome Page Section---------------- */
@@ -180,7 +193,7 @@ nav {
   right: 19.34%;
   position: static;
   align-items: center;
-  margin: 0px 8px;
+  margin: 0 8px;
   padding: 8px 12px;
   border-radius: 3px;
   background-color: #ebf0ee;
@@ -242,6 +255,12 @@ nav {
   margin-bottom: 2rem;
 }
 
+body button:hover {
+  background: #1e488f;
+  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+  border-radius: 4px;
+}
+
 /* -----------Footer---------- */
 
 footer {
@@ -251,25 +270,6 @@ footer {
   background-image: url(imege/Frame.svg);
   background-position: right 0 bottom 355px;
   background-repeat: no-repeat;
-}
-
-footer h2 {
-  width: 327px;
-  height: 363px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 60px;
-}
-
-form ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form ul li {
-  margin-top: 20px;
 }
 
 form input[type="text"],

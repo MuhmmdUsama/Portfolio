@@ -250,11 +250,12 @@ nav {
   background-color: #fff;
   margin-bottom: 2rem;
 }
+
 /* Button-hover and-Pressed */
 
 body button:hover {
   background: #36b37f;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 

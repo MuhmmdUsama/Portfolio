@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.first-page {
+  padding-bottom: 10%;
+}
+
 h1,
 h2,
 p {
@@ -31,6 +35,25 @@ body p {
   padding-top: 5%;
   padding-bottom: 0%;
   letter-spacing: 2.3px;
+}
+
+button {
+  width: 159px;
+  height: 48px;
+  border-radius: 4px;
+  border: 0.2px solid;
+  margin: 1.5rem;
+  background-color: #36b37f;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+body button:hover {
+  background: #1e488f;
+  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+  border-radius: 4px;
 }
 
 /* --------- First Welcome Page Section---------------- */
@@ -64,7 +87,6 @@ nav {
   background-size: 100%;
   padding: 12%;
   padding-top: 20%;
-  padding-bottom: 10%;
   justify-content: center;
 }
 
@@ -91,7 +113,7 @@ nav {
 }
 
 .icon img {
-  width: 1.7rem;
+  width: 19px;
   margin: 1.5rem;
 }
 
@@ -121,8 +143,7 @@ nav {
   flex-direction: column;
   background-color: #ebf0ee;
   border: 2px solid #ebf0ee;
-  border-radius: 8px;
-  margin: 2rem;
+  border-radius: 10px;
 }
 
 .proj-card img {
@@ -155,12 +176,11 @@ nav {
   display: flex;
   flex-direction: row;
   flex-grow: 0;
-  font-weight: 500;
   left: 53.77%;
   right: 19.34%;
   position: static;
   align-items: center;
-  margin: 1px 8px;
+  margin: 0px 8px;
   padding: 8px 12px;
   border-radius: 3px;
   background-color: #ebf0ee;
@@ -194,21 +214,6 @@ nav {
   padding: 3rem;
 }
 
-.about button {
-  width: 159px;
-  height: 48px;
-  left: 96px;
-  top: 285px;
-  border-radius: 4px;
-  border: 0.2px solid;
-  margin: 1.5rem;
-  background-color: #36b37f;
-  color: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-}
-
 /* -----------skills Section----------------- */
 
 .skills-card img {
@@ -218,8 +223,8 @@ nav {
   margin-top: 2rem;
 }
 
-.skills {
-  margin: 0.5rem;
+.skills-card {
+  width: 43vh;
 }
 
 .skills-content {
@@ -237,86 +242,71 @@ nav {
   margin-bottom: 2rem;
 }
 
-button:hover {
-  background: #1e488f;
-  box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
-  border-radius: 4px;
-}
+/* -----------Footer---------- */
 
 footer {
-  margin-right: 24px;
-  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(imege/Frame.svg);
+  background-position: right 0 bottom 355px;
+  background-repeat: no-repeat;
 }
-
 
 footer h2 {
-  font-size: 32px;
-  line-height: 44px;
-  font-weight: 500;
-  color: #9390ff;
-  margin-top: 120px;
-  margin-bottom: 24px;
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 60px;
 }
 
-footer p {
-  color: var(--neutral-10);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 24px 0;
-}
-
-footer ul {
+form ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-footer ul li {
+form ul li {
   margin-top: 20px;
-  width: 100%;
 }
 
-footer ul li input {
-  box-sizing: border-box;
-  width: 100%;
+form input[type="text"],
+input[type="email"] {
+  width: 327px;
   height: 48px;
-  padding: 15px 16px;
-  border: 0;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
   font-size: 15px;
-  color: var(--neutral-5);
+  line-height: 20px;
+  color: #6b778c;
+  padding: 16px;
 }
 
-footer textarea{
+textarea {
+  height: 114px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid #60c095;
   box-sizing: border-box;
-  height: 148px;
-  width: 100%;
+  border-radius: 4px;
   padding: 12px;
-  font-size: 15px;
-  color: var(--neutral-5);
-  border: 0;
-
 }
 
-footer .submit-button{
-  width: 100%;
-  height: auto;
-  margin-top: 40px;
-  margin-bottom: 71px;
-}
-
-.submit-button button{
-  width: auto;
+.footer-icon {
+  padding: 0;
   margin: 0;
 }
 
-#last-line{
-  margin-bottom: 25px;
-}
-
-#send-email{
-  text-decoration: none;
-  color: #ebebff;
-  margin-top: 9px;
-  padding-bottom: 40px;
+#send-email {
+  width: 375px;
+  height: 189px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
+  margin-bottom: 147px;
 }

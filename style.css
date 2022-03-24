@@ -401,6 +401,17 @@ textarea {
     display: none;
   }
 
+  footer h2 {
+    width: 436px;
+    height: 256px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52px;
+    margin: 50px 24px 50px 135px;
+    text-align: justify;
+    text-justify: inter-character;
+  }
+
   .first-page h2 {
     font-weight: 700;
     font-size: 40px;
@@ -476,17 +487,6 @@ textarea {
     20% 80% url(imege/Frame-middle.svg),
     0% 80% url(imege/Frame-left.svg);
     background-repeat: no-repeat;
-  }
-
-  footer h2 {
-    width: 436px;
-    height: 256px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 52px;
-    margin: 50px 24px 50px 135px;
-    text-align: justify;
-    text-justify: inter-character;
   }
 
   .contact-form {

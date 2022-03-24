@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <!-- Nav-Bar -->
 
       <nav>
@@ -19,6 +19,11 @@
         <a href="#" class="menu">
           <img src="imege/Enabled.svg" alt="Menu" />
         </a>
+        <ul class="nav-list">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -185,13 +190,15 @@
       <!--About Section-->
 
       <section class="about">
-        <h2>About me</h2>
-        <p>
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-        <button type="button" class="My-Resume">Get My Resume</button>
+        <div class="about-section">
+          <h2>About me</h2>
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <button type="button" class="My-Resume">Get My Resume</button>
+        </div>
       </section>
 
       <!-- skills Section -->
@@ -250,15 +257,19 @@
         chat please get in touch.
       </h2>
 
-      <form action="https://formspree.io/f/xknyzaaw" method="post">
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/xknyzaaw"
+        method="post"
+      >
         <ul>
-          <li>
+          <li class="full-name">
             <input
               id="name"
               name="user-name"
               type="text"
               maxlength="30"
-              placeholder="Full name"
+              placeholder="Full Name"
               required
             />
           </li>
@@ -285,27 +296,30 @@
           </li>
         </ul>
       </form>
+      <hr />
       <!-- Contact-Form-Ends -->
 
       <!-- social-Icons -->
-      <ul class="icon footer-icon">
-        <li>
-          <a href="https://twitter.com/MuhmmdUsama" target="blank"
-            ><img src="imege/twitter.svg" alt="social logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://github.com/MuhmmdUsama" target="blank"
-            ><img src="imege/github.svg" alt="social logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/muhmmdusama/" target="blank"
-            ><img src="imege/Linkedin-icon.svg" alt="social logo"
-          /></a>
-        </li>
-      </ul>
-
+      <div class="social-footer">
+        <hr />
+        <ul class="icon footer-icon">
+          <li>
+            <a href="https://twitter.com/MuhmmdUsama" target="blank"
+              ><img src="imege/twitter.svg" alt="social logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/MuhmmdUsama" target="blank"
+              ><img src="imege/github.svg" alt="social logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/muhmmdusama/" target="blank"
+              ><img src="imege/Linkedin-icon.svg" alt="social logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
       <a id="send-email" href="#">myemailhere@email.com</a>
     </footer>
   </body>

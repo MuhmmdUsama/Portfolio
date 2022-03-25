@@ -125,9 +125,11 @@ nav {
   padding-bottom: 40%;
 }
 
-.icon img {
-  width: 19px;
-  margin: 1.5rem;
+.icon li {
+  width: 20px;
+  height: 16px;
+  padding-right: 15px;
+  margin: 15px 10px 10px 10px;
 }
 
 #indicator {
@@ -321,7 +323,7 @@ textarea {
 
 /* -----------------------------------media */
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1240px) {
   body {
     background-image: url(imege/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
@@ -402,12 +404,9 @@ textarea {
   }
 
   footer h2 {
-    width: 436px;
+    width: 463px;
     height: 256px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 52px;
-    margin: 50px 24px 50px 10%;
+    margin: auto;
     text-align: justify;
     text-justify: inter-character;
   }
@@ -423,8 +422,9 @@ textarea {
   .Proj-container,
   .skills {
     padding: 0 135px;
-    justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: auto;
   }
 
   .proj-card {
@@ -473,19 +473,26 @@ textarea {
     height: 352px;
   }
 
+  /* --------------------Footer Section--- */
+
   footer {
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 164px;
     background: 100% 30% url(imege/Frame-right.svg), 20% 80% url(imege/Frame-middle.svg), 0% 80% url(imege/Frame-left.svg);
     background-repeat: no-repeat;
     justify-content: center;
   }
 
-  .contact-form {
+  .footer-title {
+    margin: auto;
+    padding-right: 24px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 52px;
+  }
+
+  .form-section {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 8%;
   }
 
   .first-name,

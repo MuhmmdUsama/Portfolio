@@ -407,7 +407,7 @@ textarea {
     font-weight: 700;
     font-size: 28px;
     line-height: 52px;
-    margin: 50px 24px 50px 135px;
+    margin: 50px 24px 50px 25%;
     text-align: justify;
     text-justify: inter-character;
   }
@@ -428,7 +428,8 @@ textarea {
   }
 
   .proj-card {
-    width: 369px;
+    margin: auto;
+
   }
 
   .card-content {

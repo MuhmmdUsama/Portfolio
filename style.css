@@ -425,6 +425,7 @@ textarea {
     padding: 0 135px;
     justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
+    margin: auto;
   }
 
   .proj-card {

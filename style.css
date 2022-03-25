@@ -227,6 +227,10 @@ nav {
   padding: 3rem;
 }
 
+.about p:hover {
+  text-decoration: underline;
+}
+
 /* -----------skills Section----------------- */
 
 .skills-card img {

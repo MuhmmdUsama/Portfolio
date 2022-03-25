@@ -407,7 +407,7 @@ textarea {
     font-weight: 700;
     font-size: 28px;
     line-height: 52px;
-    margin: 50px 24px 50px 25%;
+    margin: 50px 24px 50px 10%;
     text-align: justify;
     text-justify: inter-character;
   }
@@ -429,7 +429,6 @@ textarea {
 
   .proj-card {
     margin: auto;
-
   }
 
   .card-content {
@@ -480,11 +479,13 @@ textarea {
     margin-top: 164px;
     background: 100% 30% url(imege/Frame-right.svg), 20% 80% url(imege/Frame-middle.svg), 0% 80% url(imege/Frame-left.svg);
     background-repeat: no-repeat;
+    justify-content: center;
   }
 
   .contact-form {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-right: 8%;
   }
 
   .first-name,

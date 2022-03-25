@@ -115,6 +115,18 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  animation-name: design;
+  animation-duration: 3s;
+}
+
+@keyframes design {
+  from {
+    color: rgb(127, 212, 124);
+  }
+
+  to {
+    color: rgb(8, 14, 8);
+  }
 }
 
 .icon {
@@ -443,7 +455,8 @@ textarea {
 
   .about {
     margin-top: 5rem;
-    background-image: url(imege/Mask-Group-right.svg), url(imege/Mask-Group-left-02.svg);
+    background-image: url(imege/Mask-Group-right.svg),
+      url(imege/Mask-Group-left-02.svg);
     background-position: right top, left bottom;
     background-size: 269.44px 244.78px, 288.04px 129.24px;
     background-repeat: no-repeat;
@@ -478,7 +491,8 @@ textarea {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 164px;
-    background: 100% 30% url(imege/Frame-right.svg), 20% 80% url(imege/Frame-middle.svg), 0% 80% url(imege/Frame-left.svg);
+    background: 100% 30% url(imege/Frame-right.svg),
+      20% 80% url(imege/Frame-middle.svg), 0% 80% url(imege/Frame-left.svg);
     background-repeat: no-repeat;
     justify-content: center;
   }

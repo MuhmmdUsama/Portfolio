@@ -7,7 +7,7 @@ Personal Portfolio
 - Html
 - Css
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://muhmmdusama.github.io/Portfolio/)
 

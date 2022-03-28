@@ -8,6 +8,11 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   text-align: center;
   background-color: #fbfbfb;
@@ -130,6 +135,15 @@ nav {
   height: 16px;
   padding-right: 15px;
   margin: 15px 10px 10px 10px;
+}
+
+.action {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  left: calc(50% - 40px / 2 + 0.5px);
 }
 
 #indicator {
@@ -329,6 +343,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100%;
+    margin: 0 auto;
   }
 
   nav {
@@ -391,11 +406,12 @@ textarea {
   .icon {
     list-style: none;
     padding-top: 40px;
-    padding-bottom: 40%;
+    padding-bottom: 70px;
   }
 
   .action {
-    visibility: hidden;
+    margin-top: 14px;
+    margin-bottom: 495px;
   }
 
   .first-page h2 br,
@@ -424,11 +440,10 @@ textarea {
     padding: 0 135px;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin: auto;
   }
 
   .proj-card {
-    margin: auto;
+    margin: 0 auto;
   }
 
   .card-content {

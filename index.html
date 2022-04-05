@@ -13,17 +13,24 @@
       <!-- Nav-Bar -->
 
       <nav>
-        <a class="logo" href="#">
+        <a class="logo" id="logo" href="#">
           <h2>Welcome</h2>
         </a>
-        <a href="#" class="menu">
-          <img src="imege/Enabled.svg" alt="Menu" />
-        </a>
-        <ul class="nav-list">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav-list" id="menu-list">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <ul class="nav-menu tap">
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger tap">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </nav>
     </header>
 
@@ -72,8 +79,9 @@
           </li>
         </ul>
         <a class="action" href="#">
-          <img src="imege/Action.svg" alt="Action" /></a>
-        <h2>
+          <img src="imege/Action.svg" alt="Action"
+        /></a>
+        <h2 id="portfolio">
           My Recent<br />
           Works
         </h2>
@@ -200,7 +208,7 @@
 
       <!--About Section-->
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-section">
           <h2>About me</h2>
           <p>
@@ -262,52 +270,53 @@
       <!-- skills-Section-End -->
     </main>
 
-    <footer>
-    <div class="form-section">
-      <h2 class="title footer-title">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.</h2>
+    <footer id="contact">
+      <div class="form-section">
+        <h2 class="title footer-title">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
 
-      <form
-        class="contact-form"
-        action="https://formspree.io/f/xknyzaaw"
-        method="post"
-      >
-        <ul>
-          <li class="full-name">
-            <input
-              id="name"
-              name="user-name"
-              type="text"
-              maxlength="30"
-              placeholder="Full Name"
-              required
-            />
-          </li>
-          <li>
-            <input
-              type="email"
-              id="email"
-              name="user-email"
-              placeholder="Email address"
-              required
-            />
-          </li>
-          <li>
-            <textarea
-              name="user-message"
-              id="msg"
-              maxlength="500"
-              placeholder="Enter text here"
-              required
-            ></textarea>
-          </li>
-          <li class="submit-button">
-            <button type="submit">Get in touch</button>
-          </li>
-        </ul>
-      </form>
-    </div>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/xknyzaaw"
+          method="post"
+        >
+          <ul>
+            <li class="full-name">
+              <input
+                id="name"
+                name="user-name"
+                type="text"
+                maxlength="30"
+                placeholder="Full Name"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="email"
+                id="email"
+                name="user-email"
+                placeholder="Email address"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                name="user-message"
+                id="msg"
+                maxlength="500"
+                placeholder="Enter text here"
+                required
+              ></textarea>
+            </li>
+            <li class="submit-button">
+              <button type="submit">Get in touch</button>
+            </li>
+          </ul>
+        </form>
+      </div>
       <hr />
       <!-- Contact-Form-Ends -->
 
@@ -344,5 +353,7 @@
       </div>
       <a id="send-email" href="#">myemailhere@email.com</a>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -6,6 +6,7 @@ Personal Portfolio
 
 - Html
 - Css
+- Js
 
 ## Live Demo
 

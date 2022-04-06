@@ -22,7 +22,6 @@ window.onclick = function global(event) {
   }
 };
 
-
 // ######## Array of objects for project card pop-up data ########
 
 const modalContent = [
@@ -100,14 +99,6 @@ const modalContent = [
   },
 ];
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.Proj-container .See-Project').forEach((btn, ind) => {
-    btn.addEventListener('click', () => {
-      openModal(ind);
-    });
-  });
-});
-
 // ################# Create HTML  modal temblet
 
 function openModal(ind) {
@@ -149,10 +140,18 @@ function openModal(ind) {
   const closeModalIcon = document.querySelector('.modal__exit');
   const modal = document.querySelector('.modal');
 
-// When the user clicks on (x), close the modal
+  // When the user clicks on (x), close the modal
 
   closeModalIcon.addEventListener('click', () => {
-    modal.style.display = "none";
+    modal.style.display = 'none';
     overlay.classList.add('hidden');
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.Proj-container .See-Project').forEach((btn, ind) => {
+    btn.addEventListener('click', () => {
+      openModal(ind);
+    });
+  });
+});

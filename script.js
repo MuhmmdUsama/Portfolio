@@ -155,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
 // ######## validate contact form ########
 
 const form = document.querySelector('.contact-form')
@@ -163,4 +164,3 @@ function validate(){
   form.addEventListener('submit', (event) => {
     event.preventDefault()
     const emailValue = form.email.value
-  } 

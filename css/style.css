@@ -167,7 +167,7 @@ nav {
 .first-page {
   display: flex;
   flex-direction: column;
-  background-image: url(imege/background.svg);
+  background-image: url(/imege/background.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 100%;
@@ -302,7 +302,7 @@ nav {
 
 .about-section {
   margin-top: 5rem;
-  background-image: url(imege/backgraound-02.png);
+  background-image: url(/imege/backgraound-02.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -359,7 +359,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(imege/Frame.svg);
+  background-image: url(/imege/Frame.svg);
   background-position: right 0 bottom 355px;
   background-repeat: no-repeat;
 }
@@ -407,7 +407,7 @@ textarea {
 
 @media screen and (min-width: 1240px) {
   body {
-    background-image: url(imege/Header-llustration-desktop.svg);
+    background-image: url(/imege/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 100%;
@@ -525,7 +525,7 @@ textarea {
 
   .about {
     margin-top: 5rem;
-    background-image: url(imege/Mask-Group-right.svg), url(imege/Mask-Group-left-02.svg);
+    background-image: url(/imege/Mask-Group-right.svg), url(/imege/Mask-Group-left-02.svg);
     background-position: right top, left bottom;
     background-size: 269.44px 244.78px, 288.04px 129.24px;
     background-repeat: no-repeat;
@@ -560,7 +560,7 @@ textarea {
 
   footer {
     margin-top: 164px;
-    background: 100% 30% url(imege/Frame-right.svg), 20% 80% url(imege/Frame-middle.svg), 0% 80% url(imege/Frame-left.svg);
+    background: 100% 30% url(/imege/Frame-right.svg), 20% 80% url(/imege/Frame-middle.svg), 0% 80% url(/imege/Frame-left.svg);
     background-repeat: no-repeat;
     justify-content: center;
   }

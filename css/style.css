@@ -167,7 +167,7 @@ nav {
 .first-page {
   display: flex;
   flex-direction: column;
-  background-image: url(/imege/background.svg);
+  background-image: url(../imege/background.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 100%;
@@ -359,7 +359,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/imege/Frame.svg);
+  background-image: url(../imege/Frame.svg);
   background-position: right 0 bottom 355px;
   background-repeat: no-repeat;
 }

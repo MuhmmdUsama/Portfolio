@@ -26,15 +26,15 @@ window.onclick = function global(event) {
 
 const modalContent = [
   {
-    modalImg: 'imege/Snapshoot-Portfolio.svg',
-    modalName: 'Keeping track of hundreds of components',
+    modalImg: 'imege/awsome-book.png',
+    modalName: 'Awesome-Books',
     alt: 'project img',
-    technologies: ['Ruby', 'Css', 'javaScript'],
+    technologies: ['Html', 'Css', 'Js-ES6'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+      'A basic website that allows users to add/remove books from a list. I achieved that by using JavaScript objects and arrays.',
     links: [
-      'https://github.com/MuhmmdUsama',
-      'https://github.com/MuhmmdUsama/Portfolio',
+      'https://muhmmdusama.github.io/Awesome-Books/#',
+      'https://github.com/MuhmmdUsama/Awesome-Books-ES6',
     ],
   },
   {
